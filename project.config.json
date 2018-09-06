@@ -1,0 +1,97 @@
+{
+	"description": "项目配置文件。",
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"miniprogramRoot": "./dist/",
+	"compileType": "miniprogram",
+	"appid": "wx316f452dd0549fed",
+	"projectname": "%E8%AF%8D%E6%B1%87%E5%B0%8F%E7%A8%8B%E5%BA%8F",
+	"libVersion": "2.2.2",
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 9,
+			"list": [
+				{
+					"id": 0,
+					"name": "home",
+					"pathName": "pages/home/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "task",
+					"pathName": "pages/task/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "task",
+					"pathName": "pages/acivityDetalis/index",
+					"query": ""
+				},
+				{
+					"id": 3,
+					"name": "acivityDetails",
+					"pathName": "pages/activityDetails/index",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "master",
+					"pathName": "pages/activityDetails/master",
+					"query": ""
+				},
+				{
+					"id": 5,
+					"name": "signin",
+					"pathName": "pages/home/signin",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "拆分登录",
+					"pathName": "pages/home/signin1",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "刷新首页",
+					"pathName": "pages/home/home",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "入群",
+					"pathName": "pages/activityDetails/friend",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "下载",
+					"pathName": "pages/downloadApp/index"
+				}
+			]
+		}
+	}
+}

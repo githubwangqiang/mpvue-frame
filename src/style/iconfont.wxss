@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'iconfont';  /* project id 745555 */
+  src: url('//at.alicdn.com/t/font_745555_emi2zy26rce.eot');
+  src: url('//at.alicdn.com/t/font_745555_emi2zy26rce.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_745555_emi2zy26rce.woff') format('woff'),
+  url('//at.alicdn.com/t/font_745555_emi2zy26rce.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_745555_emi2zy26rce.svg#iconfont') format('svg');
+}
+
+.iconfont {
+  font-family:"iconfont" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-plannav-next:before { content: "\e60c"; }
+
+.icon-guanbi:before { content: "\e7d5"; }
+
+.icon-duigou:before { content: "\e7f2"; }
+
+.icon-biyan:before { content: "\e7f3"; }
+
+.icon-tishi:before { content: "\e7f8"; }
+
+.icon-xianshimima:before { content: "\e7f9"; }
+
+.icon-bofang:before { content: "\e800"; }
+
+.icon-Triangle:before { content: "\e83d"; }
+
+.icon-home:before { content: "\e842"; }
+
+.icon-dibudaohangICON-:before { content: "\e849"; }
+
+.icon-daqia:before { content: "\e85b"; }
+

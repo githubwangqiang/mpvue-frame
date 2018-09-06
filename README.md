@@ -1,0 +1,44 @@
+## 单词小程序
+
+### 项目结构简介
+- `/src/components/` 组件
+    - `bookItem.vue` 词汇书列表组件公用模版
+    - `rate.vue` 标星模版组件
+    - `setUpNote.vue` 底部设置、笔记、喇叭操作栏组件
+    - `sideDrawer.vue` 侧边设置栏
+    - `step1Card.vue` 背诵第一轮模版
+    - `step2Card.vue` 背诵第二轮模版
+    - `step3Card.vue` 背诵第三轮模版
+    - `step4Card.vue` 背诵第四轮模版
+    - `step5.vue` 背诵第五轮模版
+    - `step6Card.vue` 背诵第六轮模版
+    - `stepList.vue` 顶部 step 切换组件
+    - `taskList.vue` task-list 任务组件
+- `/src/pages/` 页面
+    - `book/` 词汇书
+        - `index.vue` 列表页
+        - `detail.vue` 词汇详情页
+    - `index/` 背诵部分
+        - `index.vue` 背诵展示页
+        - `note.vue` 笔记页
+    - `task/` task-list 页
+- `/src/plugins/` 工具、插件
+    - `logger/*.js` vuex 操作打印log文件
+    - `flyio/apiUrl/*.js` API统一管理
+    - `flyio/request.js` 网络请求接口统一转出
+    - `ibox/index.js` 所有工具类方法统一出口注入全局使用
+    - `ibox/utils.js` 全局方法
+- `/src/store/` vuex
+    - `index.js` vuex 模块统一出口
+    -  `modules/*.js` vuex 某个模块的具体实现
+- `/src/style/` 全局样式
+    - `iconfont.wxss` 字体图标管理
+    - `weui.css` weui 组件库样式
+- `/src/utils/` 项目工具类配置
+    - `global.js` 配置文件
+    - `md5.js` md5引入包
+- `/src/App.vue` 页面入口
+- `/src/main.js` app 入口
+- `/src/pages.js` 路由配置文件
+- `/static/sdk/` 阿拉丁sdk引入文件
+- `/static/images/` 静态图片资源
